@@ -1,11 +1,14 @@
 import './App.css'
+import Menu from './components/Menu'
+import Layout from './components/Layout'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>My portfolio</h1>
+      <div className='app-container'>
+        <Menu/>
+        <Layout/>
       </div>
     </>
   )

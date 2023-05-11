@@ -1,0 +1,93 @@
+.app-container{
+    display: flex;
+    padding: 20px;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container{
+    border: 2px solid red;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.skills-container{
+    width: 100%;
+}
+
+.skills-container h2{
+    font-size: 3rem;
+}
+
+span{
+    color: var(--green);
+}
+
+.menu-container{
+    position:sticky;
+    top: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 95vh;
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 20px;
+}
+
+.nombre{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.menu-container p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.menu-container img{
+    width: 20rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    filter: grayscale(80%);
+}
+
+.frontend-dev {
+    transform: translateX(-30%);
+    animation: slideIn 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-30%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+.menu-container .redes{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.menu-container .redes .red{
+    width: 50px;
+    transition: all 0.8s;
+}
+
+.menu-container .redes .red:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.menu-container .redes .red img{
+    width: 100%;
+}
