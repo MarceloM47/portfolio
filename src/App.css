@@ -11,10 +11,12 @@
 
 .home-container{
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .skills_title{
     font-size: 5rem;
+    user-select: none;
 }
 
 .skills{
@@ -54,16 +56,19 @@
 
 .index{
     border: 2px solid rgb(59, 59, 59);
-    padding: 2%;
+    padding: 1.5%;
     border-radius: 30px;
-    width: 15%;
+    width: 20%;
+    max-width: 30%;
 }
 
 .index p{
     font-size: 1rem;
     display: flex;
     align-items: center;
-    gap: 5%;
+    justify-content: center;
+    gap: 8%;
+    user-select: none;
 }
 
 span{
@@ -134,6 +139,36 @@ span{
 
 .menu-container .redes .red img{
     width: 100%;
+}
+
+.certifications-container{
+    width: 100%;
+}
+
+.slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.slider img{
+    width: 720px;
+    user-select: none;
+}
+
+.slider-button{
+    margin: 20px;
+    font-size: 4rem;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.slider-button:hover{
+    cursor: pointer;
+    color: var(--green);
 }
 
 /* MEDIA QUERIES */

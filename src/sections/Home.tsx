@@ -18,7 +18,7 @@ function Home() {
   return (
     <div className="home-container">
           <div className="index">
-            <p><BsCodeSlash/> My skills</p>
+            <p><BsCodeSlash/>Skills</p>
           </div>
           <p className='skills_title'>My <span>Abilities</span></p>
           <div className="skills">
