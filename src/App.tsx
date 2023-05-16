@@ -1,6 +1,6 @@
 import './App.css'
-import Menu from './components/Menu'
-import Layout from './components/Layout'
+import Menu from './sections/Menu'
+import Layout from './sections/Layout'
 
 function App() {
 
