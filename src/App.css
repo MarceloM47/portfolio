@@ -4,23 +4,66 @@
 }
 
 .layout{
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
 
 .home-container{
-    border: 2px solid red;
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.skills-container{
     width: 100%;
 }
 
-.skills-container h2{
-    font-size: 3rem;
+.skills_title{
+    font-size: 5rem;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0px;
+}
+
+.skill{
+    width: 25%;
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .5s;
+}
+
+.skill:hover{
+    border: 2px solid var(--green);
+}
+
+.skill p{
+    font-size: 5rem;
+}
+
+.skill small{
+    font-size: 2rem;
+    transition: all .5s;
+}
+
+.skill:hover > small{
+    color: var(--green);
+}
+
+.index{
+    border: 2px solid rgb(59, 59, 59);
+    padding: 2%;
+    border-radius: 30px;
+    width: 15%;
+}
+
+.index p{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5%;
 }
 
 span{
@@ -48,10 +91,11 @@ span{
 .menu-container p{
     font-size: 1rem;
     text-align: center;
+    padding: 0 30px 0 30px;
 }
 
 .menu-container img{
-    width: 20rem;
+    width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 15px;
@@ -90,4 +134,9 @@ span{
 
 .menu-container .redes .red img{
     width: 100%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:1040px) {
+    
 }

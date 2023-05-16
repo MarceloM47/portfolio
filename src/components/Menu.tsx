@@ -11,10 +11,10 @@ function Menu() {
         <p>Mi nombre es Marcelo Morinigo, Soy Programador web y estoy en el último año del Bachillerato técnico en informática; me apasiona la programación y el mundo de la informática en general.</p>
         <div className="redes">
             <div className="red">
-                <a href="https://github.com/marcelom47"><img src="/svg/github.svg" alt="github" /></a>
+                <a href="https://github.com/marcelom47" target='_blank'><img src="/svg/github.svg" alt="github" /></a>
             </div>
             <div className="red">
-                <a href="https://www.linkedin.com/in/marcelo-morinigo-74808b213/"><img src="/svg/linkedin.svg" alt="linkedin" /></a>
+                <a href="https://www.linkedin.com/in/marcelo-morinigo-74808b213/" target='_blank'><img src="/svg/linkedin.svg" alt="linkedin" /></a>
             </div>
             <div className="red">
                 <a href="mailto:morinigomarcelo40@gmail.com"><img src="/svg/mail.svg" alt="email" /></a>
