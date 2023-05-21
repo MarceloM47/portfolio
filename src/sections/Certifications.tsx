@@ -1,5 +1,5 @@
 import { BsFillClipboard2Fill } from 'react-icons/bs';
-import CertificateSlider from '../CertificateSlider';
+import CertificateSlider from '../components/CertificateSlider';
 import certificado1 from '../assets/certifications/desarrollo web profesional.png';
 import certificado2 from '../assets/certifications/frontend-practico.png';
 import certificado3 from '../assets/certifications/accesibilidad_web.png';

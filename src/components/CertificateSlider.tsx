@@ -1,11 +1,11 @@
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface SliderProps {
   images: string[];
 }
 
-const CertificateSlider: React.FC<SliderProps> = ({ images }) => {
+function CertificateSlider({ images }: SliderProps){
   const [currentImage, setCurrentImage] = useState(0);
 
   const nextSlide = () => {

@@ -5,6 +5,7 @@ interface SkillProps {
 }
 
 function Skill({ icon, title, percentaje }: SkillProps) {
+
   return (
     <div className="skill" title={title}>
         <p>{icon}</p>

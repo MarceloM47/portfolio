@@ -1,11 +1,9 @@
-import ScrollReveal from 'scrollreveal'
-
 function Menu() {
-    ScrollReveal().reveal('.menu-container', { delay: 200 });
 
   return (
     <div className="menu-container">
-        <h2 className='nombre'>MARCELO MORINIGO</h2>
+        <div className="menu-container-child">
+            <h2 className='nombre'>MARCELO MORINIGO</h2>
         <img src="marcelo.jpg" alt="/public/marcelo.jpg" />
         <h2 className="frontend-dev"><span>FRONTEND</span> DEVELOPER</h2>
         <p>Mi nombre es Marcelo Morinigo, Soy Programador web y estoy en el último año del Bachillerato técnico en informática; me apasiona la programación y el mundo de la informática.</p>
@@ -19,6 +17,7 @@ function Menu() {
             <div className="red">
                 <a href="mailto:morinigomarcelo40@gmail.com"><img src="/svg/mail.svg" alt="email" /></a>
             </div>
+        </div>
         </div>
     </div>
   )
