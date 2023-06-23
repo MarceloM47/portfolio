@@ -6,7 +6,12 @@ function Menu() {
             <h2 className='nombre'>MARCELO MORINIGO</h2>
         <img src="marcelo.jpg" alt="/public/marcelo.jpg" />
         <h2 className="frontend-dev"><span>FRONTEND</span> DEVELOPER</h2>
-        <p>Mi nombre es Marcelo Morinigo, Soy Programador web y estoy en el último año del Bachillerato técnico en informática; me apasiona la programación y el mundo de la informática.</p>
+        <p>Estoy en el último año del Bachillerato técnico en informática; me apasiona la programación y el mundo de la informática.</p>
+        <div className="btncv-container">
+            <a href="/documents/Marcelo Morinigo CV.pdf" download={true} className="btncv">
+                Download CV
+            </a>
+        </div>
         <div className="redes">
             <div className="red">
                 <a href="https://github.com/marcelom47" target='_blank'><img src="/svg/github.svg" alt="github" /></a>
