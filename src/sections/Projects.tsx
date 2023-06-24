@@ -1,9 +1,9 @@
 import {BsRocketTakeoffFill} from 'react-icons/bs'
 import Project from '../components/Project'
 
-const task_list_bg = "/src/assets/projects_image/task-list-bg.png";
-const coffe_shop_bg = "/src/assets/projects_image/coffe-shop-bg.png";
-const marcelo_shoes_bg = "/src/assets/projects_image/marcelo-shoes-bg.png";
+const task_list_bg = "/images/projects_image/task-list-bg.png";
+const coffe_shop_bg = "/images/projects_image/coffe-shop-bg.png";
+const marcelo_shoes_bg = "/images/projects_image/marcelo-shoes-bg.png";
 
 function Projects() {
 
