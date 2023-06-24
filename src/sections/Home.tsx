@@ -20,7 +20,7 @@ function Home() {
           <div className="index">
             <p><BsCodeSlash/>Skills</p>
           </div>
-          <p className='skills_title'>My <span>Abilities</span></p>
+          <p className='title_section'>My <span>Abilities</span></p>
           <div className="skills">
             <Skill icon={<DiHtml5/>} title={"Html"} percentaje={"90%"}/>
             <Skill icon={<DiCss3/>} title={"Css"} percentaje={"90%"}/>

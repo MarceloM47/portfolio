@@ -46,7 +46,7 @@ function Certifications() {
       <div className="index">
         <p><BsFillClipboard2Fill/>Certifications</p>
       </div>
-      <p className='skills_title'>My <span>Certifications</span></p>
+      <p className='title_section'>My <span>Certifications</span></p>
       <CertificateSlider images={images}/>
     </div>
   )
