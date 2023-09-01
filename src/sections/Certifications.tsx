@@ -1,6 +1,6 @@
 import { BsFillClipboard2Fill } from 'react-icons/bs';
 import CertificateSlider from '../components/CertificateSlider';
-import certificado1 from '/images/certifications/desarrollo web profesional.png';
+import certificado1 from '/images/certifications/MSA.png';
 import certificado2 from '/images/certifications/frontend-practico.png';
 import certificado3 from '/images/certifications/accesibilidad_web.png';
 import certificado4 from '/images/certifications/typescript-profesional.png';
@@ -19,6 +19,7 @@ import certificado16 from '/images/certifications/react-profesional.png';
 import certificado17 from '/images/certifications/redes.png';
 import certificado18 from '/images/certifications/ror.png';
 import certificado19 from '/images/certifications/rorDiploma.png';
+import certificado20 from '/images/certifications/desarrollo web profesional.png';
 
 function Certifications() {
   const images = [certificado1, 
@@ -39,7 +40,8 @@ function Certifications() {
                   certificado16, 
                   certificado17,
                   certificado18,
-                  certificado19,];
+                  certificado19,
+                  certificado20];
 
   return (
     <div className="certifications-container">
