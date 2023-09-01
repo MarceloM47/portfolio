@@ -1,7 +1,7 @@
 function Menu() {
 
   return (
-    <div className="menu-container">
+    <aside className="menu-container">
         <div className="menu-container-child">
             <h2 className='nombre'>MARCELO MORINIGO</h2>
         <img src="marcelo.jpg" alt="/public/marcelo.jpg" />
@@ -24,7 +24,7 @@ function Menu() {
             </div>
         </div>
         </div>
-    </div>
+    </aside>
   )
 }
 

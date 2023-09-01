@@ -16,7 +16,7 @@ import Skill from '../components/Skill'
 function Home() {
 
   return (
-    <div className="home-container">
+    <section className="home-container">
           <div className="index">
             <p><BsCodeSlash/>Skills</p>
           </div>
@@ -35,7 +35,7 @@ function Home() {
             <Skill icon={<DiGit/>} title={"Git"} percentaje={"70%"}/>
             <Skill icon={<DiLinux/>} title={"Linux"} percentaje={"75%"}/>
           </div>
-    </div>
+    </section>
   )
 }
 

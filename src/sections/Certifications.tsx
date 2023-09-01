@@ -44,13 +44,13 @@ function Certifications() {
                   certificado20];
 
   return (
-    <div className="certifications-container">
+    <section className="certifications-container">
       <div className="index">
         <p><BsFillClipboard2Fill/>Certifications</p>
       </div>
       <p className='title_section'>My <span>Certifications</span></p>
       <CertificateSlider images={images}/>
-    </div>
+    </section>
   )
 }
 

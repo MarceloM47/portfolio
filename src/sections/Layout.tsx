@@ -1,14 +1,16 @@
 import Home from "./Home"
+import Experience from "./Experience"
 import Projects from "./Projects"
 import Certifications from "./Certifications"
 
 function Layout() {
   return (
-    <div className="layout">
+    <main className="layout">
         <Home/>
+        <Experience/>
         <Projects/>
         <Certifications/>
-    </div>
+    </main>
   )
 }
 
