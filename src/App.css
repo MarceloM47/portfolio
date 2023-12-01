@@ -261,11 +261,13 @@ span{
 .project img:hover{
     filter: contrast(60%);
 }
+
 /* MEDIA QUERIES */
 @media screen and (max-width:1310px) {
     .exps-container{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
     
@@ -273,7 +275,8 @@ span{
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 40%;
+        text-align: center;
+        width: 60%;
         margin: 50px 3%;
         padding: 10px;
         font-size: 1rem;
@@ -598,5 +601,26 @@ span{
     .slider-button:hover{
         cursor: pointer;
         color: var(--green);
+    }
+
+    .exps-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .exp-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        margin: 50px 3%;
+        padding: 10px;
+        font-size: 1rem;
+        border: 2px solid var(--green);
+        border-right: none;
+        border-left: none;
     }
 }
