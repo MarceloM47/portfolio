@@ -20,6 +20,7 @@ import certificado17 from '/images/certifications/redes.png';
 import certificado18 from '/images/certifications/ror.png';
 import certificado19 from '/images/certifications/rorDiploma.png';
 import certificado20 from '/images/certifications/desarrollo web profesional.png';
+import certificado21 from '/images/certifications/bootcamp-rails.png';
 
 function Certifications() {
   const images = [certificado1, 
@@ -41,7 +42,8 @@ function Certifications() {
                   certificado17,
                   certificado18,
                   certificado19,
-                  certificado20];
+                  certificado20,
+                  certificado21];
 
   return (
     <section className="certifications-container">

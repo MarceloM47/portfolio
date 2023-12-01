@@ -23,6 +23,6 @@ function CertificateSlider({ images }: SliderProps){
         <BsChevronCompactRight onClick={nextSlide} className="slider-button next-button"/>
     </div>
   );
-};
+}
 
 export default CertificateSlider;
