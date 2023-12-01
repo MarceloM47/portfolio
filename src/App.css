@@ -325,6 +325,26 @@ span{
         cursor: pointer;
         color: var(--green);
     }
+
+    .skills{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    
+    .skill{
+        width: 30%;
+        height: 20%;
+        margin: 10px;
+        border: 2px solid rgb(59, 59, 59);
+        border-radius: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all .5s;
+    }
 }
 
 @media screen and (max-width:1042px){
@@ -350,12 +370,14 @@ span{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         gap: 0px;
     }
     
     .skill{
-        width: 25%;
+        width: 35%;
+        height: 20%;
+        margin: 10px;
         border: 2px solid rgb(59, 59, 59);
         border-radius: 10%;
         display: flex;
@@ -369,7 +391,7 @@ span{
     }
     
     .skill small{
-        font-size: 2rem;
+        font-size: 1.5rem;
         transition: all .5s;
     }
     
@@ -461,7 +483,7 @@ span{
     }
     
     .skill{
-        width: 35%;
+        width: 45%;
         border: 2px solid rgb(59, 59, 59);
         border-radius: 10%;
         display: flex;
@@ -475,7 +497,7 @@ span{
     }
     
     .skill small{
-        font-size: 2rem;
+        font-size: 1.5rem;
         transition: all .5s;
     }
     
