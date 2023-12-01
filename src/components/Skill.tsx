@@ -1,15 +1,14 @@
 interface SkillProps {
   icon: React.ReactNode;
   title: string;
-  percentaje: string;
 }
 
-function Skill({ icon, title, percentaje }: SkillProps) {
+function Skill({ icon, title }: SkillProps) {
 
   return (
     <div className="skill" title={title}>
         <p>{icon}</p>
-        <small>{percentaje}</small>
+        <small>{title}</small>
     </div>
   )
 }

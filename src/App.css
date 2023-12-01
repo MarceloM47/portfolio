@@ -49,8 +49,9 @@
 }
 
 .skill small{
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: all .5s;
+    padding: 2%;
 }
 
 .skill:hover > small{
