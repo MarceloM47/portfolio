@@ -7,6 +7,7 @@ function Menu() {
         <img src="marcelo.jpg" alt="/public/marcelo.jpg" />
         <h2 className="frontend-dev"><span>FULL STACK</span> DEVELOPER</h2>
         <p>Soy técnico en informática, centrado en el desarrollo web de aplicaciones eficientes y escalables.</p>
+
         <div className="btncv-container">
             <a href="/documents/Marcelo Morinigo curriculum.pdf" download={true} className="btncv">
                 Download CV
