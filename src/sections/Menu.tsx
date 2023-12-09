@@ -6,7 +6,7 @@ function Menu() {
             <h2 className='nombre'>MARCELO MORINIGO</h2>
         <img src="marcelo.jpg" alt="/public/marcelo.jpg" />
         <h2 className="frontend-dev"><span>FRONTEND</span> DEVELOPER</h2>
-        <p>Estoy en el último año del Bachillerato técnico en informática; me apasiona la programación y el mundo de la informática.</p>
+        <p>Soy técnico en informática; me apasiona la programación y el mundo de la informática.</p>
         <div className="btncv-container">
             <a href="/documents/Marcelo Morinigo CV.pdf" download={true} className="btncv">
                 Download CV
