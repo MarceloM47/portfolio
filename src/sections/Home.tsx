@@ -10,7 +10,6 @@ import { DiHtml5,
          DiMysql,
          DiGit,
          DiLinux,
-         DiPython,
         } from 'react-icons/di'
 
 import { SiReactquery,
@@ -38,7 +37,6 @@ function Home() {
             <Skill icon={<SiReactrouter/>} title={"React Router"} />
             <Skill icon={<SiReactquery/>} title={"React Query"} />
             <Skill icon={<img src='/svg/ts.svg' alt='Typescript'/>} title={"Typescript"} />
-            <Skill icon={<DiPython/>} title={"Python"} />
             <Skill icon={<DiRuby/>} title={"Ruby"} />
             <Skill icon={<DiRor/>} title={"Ruby on Rails"} />
             <Skill icon={<DiReact/>} title={"React Native"} />
