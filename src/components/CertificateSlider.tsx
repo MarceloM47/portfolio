@@ -19,7 +19,7 @@ function CertificateSlider({ images }: SliderProps){
   return (
     <div className="slider">
         <BsChevronCompactLeft onClick={prevSlide} className="slider-button prev-button"/>
-      <img src={images[currentImage]} alt="Slider Image" className="slider-image" />
+          <img src={images[currentImage]} alt="Slider Image" className="slider-image" loading="lazy"/>
         <BsChevronCompactRight onClick={nextSlide} className="slider-button next-button"/>
     </div>
   );
