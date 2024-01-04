@@ -17,7 +17,7 @@ function Experience() {
             </div>
             <div className="exp-container">
                 <small>Pasantía</small>
-                <h4>Entidad Binacional Yacyreta</h4>
+                <h4>Entidad Binacional Yacyretá</h4>
                 <h5>Área de comunicaciones</h5>
                 <p>julio de 2023 - agosto de 2023 (2 meses)</p>
                 <small>Ayolas, Paraguay</small>

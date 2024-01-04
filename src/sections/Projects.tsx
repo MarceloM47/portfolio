@@ -19,9 +19,9 @@ function Projects() {
           <div className="projects">
             <p>Sistema de gestión de bibliotecas hecho con RoR, Postgresql y Bootstrap</p>
             <Project src={lms_bg} url="https://github.com/MarceloM47/Library-MS" alt='Fondo de un sistema de gestión de bibliotecas en Ruby on Rails' mobile={false}/>
-            <p>Fake store hecha con React, React Router, React Query, Zustand y Boostrap</p>
+            <p>Fake store hecha con React, React Router, React Query, Zustand y Bootstrap</p>
             <Project src={fake_store_bg} url="https://fake-store-api-alce47.vercel.app/" alt='Fondo de una fake store' mobile={false}/>
-            <p>Tienda de café hecho con Html, Css y Js</p>
+            <p>Tienda de café hecho con Html, Css y Javascript</p>
             <Project src={coffe_shop_bg} url="https://coffee-shop-liard.vercel.app/" alt='Fondo de una Tienda de café' mobile={false}/>
             <p>Aplicación de Pomodoro con React Native</p>
             <Project src={pomodoro_bg} url="https://github.com/MarceloM47/pomodoro-react-native" alt='Fondo de una App de Pomodoro' mobile={true}/>
