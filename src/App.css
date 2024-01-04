@@ -22,16 +22,15 @@
 
 .skills{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    gap: 15px;
 }
 
 .skill{
-    width: 20%;
-    height: 20%;
-    margin: 10px;
+    width: 200px;
+    height: auto;
     border: 2px solid rgb(59, 59, 59);
     border-radius: 10%;
     display: flex;
@@ -204,6 +203,7 @@ span{
 
 .certifications-container{
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .slider{
@@ -341,29 +341,9 @@ span{
         cursor: pointer;
         color: var(--green);
     }
-
-    .skills{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 0px;
-    }
-    
-    .skill{
-        width: 30%;
-        height: 20%;
-        margin: 10px;
-        border: 2px solid rgb(59, 59, 59);
-        border-radius: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transition: all .5s;
-    }
 }
 
-@media screen and (max-width:1042px){
+@media screen and (max-width:720px) {
     .app-container{
         display: flex;
         flex-direction: column;
@@ -379,144 +359,10 @@ span{
     .home-container{
         width: 100%;
         margin-bottom: 40px;
-        margin-top: 20px;
-    }
-
-    .skills{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 0px;
-    }
-    
-    .skill{
-        width: 35%;
-        height: 20%;
-        margin: 10px;
-        border: 2px solid rgb(59, 59, 59);
-        border-radius: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transition: all .5s;
-    }
-    
-    .skill p{
-        font-size: 5rem;
-    }
-    
-    .skill small{
-        font-size: 1.5rem;
-        transition: all .5s;
-    }
-    
-    .index{
-        border: 2px solid rgb(59, 59, 59);
-        padding: 1.5%;
-        border-radius: 30px;
-        width: 30%;
-    }
-    
-    .index p{
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8%;
-        user-select: none;
-    }
-    
-    span{
-        color: var(--green);
-    }
-
-    .skills_title{
-        font-size: 3rem;
-        user-select: none;
-        margin: 10px 0 10px 0;
-    }
-    
-    .menu-container{
-        position:relative;
-        top: 0;
-        margin-right: 0px;
-        width: 70%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    
-    .menu-container-child{
-        border: 2px solid rgb(59, 59, 59);
-        border-radius: 20px;
-        height: 95%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .nombre{
-        margin-top: 20px;
-        font-size: 1.5rem;
-    }
-    
-    .menu-container p{
-        font-size: 1rem;
-        text-align: center;
-        padding: 0 30px 0 30px;
-    }
-    
-    .menu-container img{
-        width: 60%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-radius: 15px;
-        filter: grayscale(80%);
-    }
-}
-
-@media screen and (max-width:802px) {
-    .layout{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .home-container{
-        width: 100%;
-        margin-bottom: 40px;
         margin-top: 40px;
     }
 
-    .skills{
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        row-gap: 30px;
-    }
-    
-    .skill{
-        width: 50%;
-        border: 2px solid rgb(59, 59, 59);
-        border-radius: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transition: all .5s;
-    }
-    
-    .skill p{
-        font-size: 5rem;
-    }
-    
-    .skill small{
-        font-size: 1.5rem;
-        transition: all .5s;
-    }
-    
+
     .index{
         border: 2px solid rgb(59, 59, 59);
         padding: 1.5%;
@@ -537,13 +383,6 @@ span{
     
     span{
         color: var(--green);
-    }
-
-    .skills_title{
-        font-size: 3rem;
-        user-select: none;
-        margin: 50px 0 50px 0;
-        text-align: center;
     }
     
     .menu-container{
