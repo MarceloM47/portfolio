@@ -199,8 +199,15 @@ span{
     font-size: 15px;
 }
 
-.exp-container h4{
+.exp-container .enterprise-name{
+    font-weight: 600;
+    font-size: 1.2rem;
     color: var(--green);
+}
+
+.exp-container .area-name {
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .certifications-container{
@@ -331,7 +338,7 @@ span{
     }
 
     .title_section{
-        font-size: 3rem;
+        font-size: 2.5rem;
         user-select: none;
         text-align: center;
         margin: 20px 0 20px 0;
@@ -490,12 +497,92 @@ span{
         align-items: center;
         flex-direction: column;
         text-align: center;
-        width: 90%;
-        margin: 50px 3%;
+        width: 100%;
+        margin: 60px 1%;
         padding: 10px;
         font-size: 1rem;
         border: 2px solid var(--green);
         border-right: none;
         border-left: none;
+    }
+
+    .projects-container{
+        width: 100%;
+        margin-bottom: 40px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .projects{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .projects p{
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    .project{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    .project-mobile{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    .project img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .project img:hover{
+        filter: contrast(60%);
+    }
+
+    .certifications-container{
+        width: 100%;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .slider{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+    .slider img{
+        width: 75%;
+        user-select: none;
+    }
+    
+    .slider-button{
+        margin: 10px;
+        font-size: 4rem;
+        border: none;
+        cursor: pointer;
+        transition: all .5s;
+    }
+    
+    .slider-button:hover{
+        cursor: pointer;
+        color: var(--green);
     }
 }
