@@ -10,10 +10,13 @@ import { DiHtml5,
          DiMysql,
          DiGit,
          DiLinux,
+         DiPostgresql,
+         DiPython,
         } from 'react-icons/di'
 
 import { SiReactquery,
-         SiReactrouter,  
+         SiReactrouter,
+         SiTailwindcss
        } from "react-icons/si";
 
 
@@ -32,6 +35,7 @@ function Home() {
             <Skill icon={<DiCss3/>} title={"Css"} />
             <Skill icon={<DiJsBadge/>} title={"Javascript"} />
             <Skill icon={<DiBootstrap/>} title={"Bootstrap"} />
+            <Skill icon={<SiTailwindcss/>} title={"Tailwindcss"} />
             <Skill icon={<DiSass/>} title={"Sass"} />
             <Skill icon={<DiReact/>} title={"React"} />
             <Skill icon={<SiReactrouter/>} title={"React Router"} />
@@ -39,8 +43,10 @@ function Home() {
             <Skill icon={<img src='/svg/ts.svg' alt='Typescript'/>} title={"Typescript"} />
             <Skill icon={<DiRuby/>} title={"Ruby"} />
             <Skill icon={<DiRor/>} title={"Ruby on Rails"} />
+            <Skill icon={<DiPython/>} title={"Python"} />
             <Skill icon={<DiReact/>} title={"React Native"} />
-            <Skill icon={<DiMysql/>} title={"Mysql"} />
+            <Skill icon={<DiMysql/>} title={"MySQL"} />
+            <Skill icon={<DiPostgresql/>} title={"PostgreSQL"} />
             <Skill icon={<DiGit/>} title={"Git"} />
             <Skill icon={<DiLinux/>} title={"Linux"} />
           </div>
