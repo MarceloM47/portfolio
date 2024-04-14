@@ -22,6 +22,13 @@ function Experience() {
                 <p>julio de 2023 - agosto de 2023 (2 meses)</p>
                 <small>Ayolas, Paraguay</small>
             </div>
+            <div className="exp-container">
+                <small>Jornada completa</small>
+                <p className="enterprise-name">JK Software SA</p>
+                <p className="area-name">Programador Frontend</p>
+                <p>febrero de 2024 - actualidad </p>
+                <small>Fernando de la Mora, Paraguay</small>
+            </div>
         </div>
     </section>
   )

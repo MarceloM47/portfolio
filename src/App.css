@@ -157,13 +157,16 @@ span{
   }
 
 .menu-container .redes{
+    overflow: hidden;
     width: 100%;
+    padding: 10px 0px;
     display:flex;
+    align-items: center;
     justify-content: space-evenly;
 }
 
 .menu-container .redes .red{
-    width: 50px;
+    width: 40px;
     transition: all 0.8s;
 }
 
@@ -225,6 +228,7 @@ span{
 
 .slider img{
     width: 75%;
+    border-radius: 6px;
     user-select: none;
 }
 
@@ -306,6 +310,14 @@ span{
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .menu-container img{
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        filter: grayscale(80%);
     }
     
     .exps-container{

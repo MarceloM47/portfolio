@@ -12,6 +12,7 @@ import { DiHtml5,
          DiLinux,
          DiPostgresql,
          DiPython,
+         DiAngularSimple,
         } from 'react-icons/di'
 
 import { SiReactquery,
@@ -34,13 +35,14 @@ function Home() {
             <Skill icon={<DiHtml5/>} title={"Html"} />
             <Skill icon={<DiCss3/>} title={"Css"} />
             <Skill icon={<DiJsBadge/>} title={"Javascript"} />
-            <Skill icon={<DiBootstrap/>} title={"Bootstrap"} />
-            <Skill icon={<SiTailwindcss/>} title={"Tailwindcss"} />
-            <Skill icon={<DiSass/>} title={"Sass"} />
+            <Skill icon={<img src='/svg/ts.svg' alt='Typescript'/>} title={"Typescript"} />
             <Skill icon={<DiReact/>} title={"React"} />
             <Skill icon={<SiReactrouter/>} title={"React Router"} />
             <Skill icon={<SiReactquery/>} title={"React Query"} />
-            <Skill icon={<img src='/svg/ts.svg' alt='Typescript'/>} title={"Typescript"} />
+            <Skill icon={<DiAngularSimple/>} title={"Angular"} />
+            <Skill icon={<DiBootstrap/>} title={"Bootstrap"} />
+            <Skill icon={<SiTailwindcss/>} title={"Tailwindcss"} />
+            <Skill icon={<DiSass/>} title={"Sass"} />
             <Skill icon={<DiRuby/>} title={"Ruby"} />
             <Skill icon={<DiRor/>} title={"Ruby on Rails"} />
             <Skill icon={<DiPython/>} title={"Python"} />

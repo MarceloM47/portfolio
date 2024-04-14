@@ -5,6 +5,7 @@ const lms_bg = "/images/projects_image/lms-bg.png";
 const coffe_shop_bg = "/images/projects_image/coffe-shop-bg.png";
 const fake_store_bg = "/images/projects_image/fake-store-bg.png"
 const pomodoro_bg = "/images/projects_image/pomodoro-bg.jpeg"
+const fake_store_mobile_bg = "/images/projects_image/fake-store-mobile-bg.jpeg"
 
 
 function Projects() {
@@ -25,6 +26,8 @@ function Projects() {
             <Project src={coffe_shop_bg} url="https://coffee-shop-liard.vercel.app/" alt='Fondo de una Tienda de café' mobile={false}/>
             <p>Aplicación de Pomodoro con React Native</p>
             <Project src={pomodoro_bg} url="https://github.com/MarceloM47/pomodoro-react-native" alt='Fondo de una App de Pomodoro' mobile={true}/>
+            <p>Aplicación de Fake Store con React Native</p>
+            <Project src={fake_store_mobile_bg} url="https://github.com/MarceloM47/mobile-fake-store" alt='Fondo de una App de Fake Store' mobile={true}/>
           </div>
     </section>
   )
