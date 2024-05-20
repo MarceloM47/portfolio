@@ -1,4 +1,5 @@
 import { BsCodeSlash } from 'react-icons/bs'
+import { TbBrandNextjs } from "react-icons/tb";
 import { DiHtml5, 
          DiCss3, 
          DiJsBadge,
@@ -13,6 +14,8 @@ import { DiHtml5,
          DiPostgresql,
          DiPython,
          DiAngularSimple,
+         DiMongodb,
+         DiDocker
         } from 'react-icons/di'
 
 import { SiReactquery,
@@ -37,8 +40,11 @@ function Home() {
             <Skill icon={<DiJsBadge/>} title={"Javascript"} />
             <Skill icon={<img src='/svg/ts.svg' alt='Typescript'/>} title={"Typescript"} />
             <Skill icon={<DiReact/>} title={"React"} />
+            <Skill icon={<TbBrandNextjs />} title={"Nextjs"} />
+            {/*
             <Skill icon={<SiReactrouter/>} title={"React Router"} />
             <Skill icon={<SiReactquery/>} title={"React Query"} />
+            */}
             <Skill icon={<DiAngularSimple/>} title={"Angular"} />
             <Skill icon={<DiBootstrap/>} title={"Bootstrap"} />
             <Skill icon={<SiTailwindcss/>} title={"Tailwindcss"} />
@@ -49,6 +55,8 @@ function Home() {
             <Skill icon={<DiReact/>} title={"React Native"} />
             <Skill icon={<DiMysql/>} title={"MySQL"} />
             <Skill icon={<DiPostgresql/>} title={"PostgreSQL"} />
+            <Skill icon={<DiMongodb/>} title={"MongoDB"} />
+            <Skill icon={<DiDocker/>} title={"Docker"} />
             <Skill icon={<DiGit/>} title={"Git"} />
             <Skill icon={<DiLinux/>} title={"Linux"} />
           </div>
