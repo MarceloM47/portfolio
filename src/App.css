@@ -189,28 +189,28 @@ span{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 40%;
-    margin: 50px 5%;
+    width: 100%;
+    margin: 50px 30px 50px 0px;
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: 2px solid var(--green);
     border-right: none;
     border-left: none;
 }
 
 .exp-container p{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .exp-container .enterprise-name{
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--green);
 }
 
 .exp-container .area-name {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .certifications-container{
