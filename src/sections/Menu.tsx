@@ -9,7 +9,7 @@ function Menu() {
         <p>Técnico en informática, centrado en el desarrollo web de aplicaciones eficientes y escalables.</p>
 
         <div className="btncv-container">
-            <a href="/documents/Marcelo Morinigo curriculum.pdf" download={true} className="btncv">
+            <a href="/documents/Marcelo Morinigo CV.pdf" download={true} className="btncv">
                 Download CV
             </a>
         </div>
