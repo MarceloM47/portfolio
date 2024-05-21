@@ -3,7 +3,7 @@ import Project from '../components/Project'
 
 const lms_bg = "/images/projects_image/lms-bg.png";
 const coffe_shop_bg = "/images/projects_image/coffe-shop-bg.png";
-const fake_store_bg = "/images/projects_image/fake-store-bg.png"
+//const fake_store_bg = "/images/projects_image/fake-store-bg.png"
 const pomodoro_bg = "/images/projects_image/pomodoro-bg.jpeg"
 const fake_store_mobile_bg = "/images/projects_image/fake-store-mobile-bg.jpeg"
 const colacion_bg = "/images/projects_image/colacion-bg.png"

@@ -18,8 +18,7 @@ import { DiHtml5,
          DiDocker
         } from 'react-icons/di'
 
-import { SiReactquery,
-         SiReactrouter,
+import { 
          SiTailwindcss
        } from "react-icons/si";
 
