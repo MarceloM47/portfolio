@@ -14,7 +14,6 @@ import { DiHtml5,
          DiPostgresql,
          DiPython,
          DiAngularSimple,
-         DiMongodb,
          DiDocker
         } from 'react-icons/di'
 
@@ -54,7 +53,6 @@ function Home() {
             <Skill icon={<DiReact/>} title={"React Native"} />
             <Skill icon={<DiMysql/>} title={"MySQL"} />
             <Skill icon={<DiPostgresql/>} title={"PostgreSQL"} />
-            <Skill icon={<DiMongodb/>} title={"MongoDB"} />
             <Skill icon={<DiDocker/>} title={"Docker"} />
             <Skill icon={<DiGit/>} title={"Git"} />
             <Skill icon={<DiLinux/>} title={"Linux"} />
